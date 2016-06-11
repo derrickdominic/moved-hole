@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+# From http://docs.opencv.org/3.1.0/d1/de0/tutorial_py_feature_homography.html
+
 MIN_MATCH_COUNT = 10
 
 img1 = cv2.imread('1.jpg')
