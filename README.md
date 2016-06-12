@@ -6,9 +6,9 @@
   <img src="1.jpg" width="300"> <img src="2.jpg" width="300">
 </p>
 
-*Method*: Using OpenCV, we employ the SIFT feature detector and descriptor to find interesting keypoints in both images, select good matches, and use them to estimate a perspective transformation between the images. 
+*Method*: Using OpenCV, we employ the SIFT feature detector and descriptor to find interesting keypoints in both images, select good matches, and use them to estimate a perspective transformation between the images. The result of running `golf.py` is the image "1.jpg" warped as if taken from the same camera as "2.jpg"
 
-*Result*: Warping "1.jpg" into "2.jpg", we have
+*Result*: Using GIMP, we overlapped the warped "1.jpg" into "2.jpg". The result is
 
 <p align="center">
   <img src="overlapped.jpg" width="450">
