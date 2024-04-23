@@ -1,4 +1,4 @@
-# moved_hole
+# moved-hole
 
 *Problem*: We have two images of a hole at a golf course taken from roughly the same place with the same camera but at dfferent times and different zoom levels. The flag marking the hole seems to move between the images. Was the hole moved? The source images are:
 
